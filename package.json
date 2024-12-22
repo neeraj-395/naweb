@@ -1,11 +1,12 @@
 {
-  "name": "naw-web",
+  "name": "naweb",
   "version": "1.0.0",
   "description": "A notes archive website for sharing handwritten notes online.",
-  "main": "index.js",
   "scripts": {
+    "dev": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neeraj-395/naw-web.git"
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/neeraj-395/naw-web#readme",
   "dependencies": {
-    "better-sqlite3": "^11.7.0"
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.2"
   }
 }

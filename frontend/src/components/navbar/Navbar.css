@@ -1,0 +1,7 @@
+.navbox { display: flex; align-items: center; padding: 2px };
+
+.navlogo { display: flex; align-items: center };
+.navlogo-img { height: 50px; width: 245px; }
+
+.navlist { display: flex; margin-left: auto };
+.navlist-link {text-decoration: none; color: #101010;};
